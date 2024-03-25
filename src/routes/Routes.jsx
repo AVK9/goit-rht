@@ -23,7 +23,7 @@ const Routes = () => {
     ...routes,
   ]);
 
-  return <RouterProvider router={router} basename="/goit-rht" />;
+  return <RouterProvider router={router} />;
 };
 
 export default Routes;
