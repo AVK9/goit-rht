@@ -17,8 +17,8 @@
     @apply block w-full bg-white bg-opacity-10 border-r-2 border-transparent focus:border-slate-400 outline-none transition-colors px-10 py-3 text-slate-300;
 }
 
-.btnLogin {
-    @apply bg-orange-500 text-white block py-2 w-full transition-colors hover:bg-orange-600;
+.inputred {
+    @apply block w-full bg-white bg-opacity-10 border-r-2 border-transparent focus:border-slate-400 outline-none transition-colors px-10 py-3 text-rose-300;
 }
 
 .inputBox {
@@ -43,6 +43,10 @@
 
 .linksLogin {
     @apply text-sm text-slate-400;
+}
+
+.btnReg {
+    @apply text-white block py-2 w-full transition-colors;
 }
 
 .btnRegbox {
