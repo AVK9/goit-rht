@@ -29,7 +29,7 @@ import { ToastContainer } from 'react-toastify';
 const App = () => {
   return (
     <AuthProvider>
-      <Routes basename="/goit-rht" />
+      <Routes />
       <ToastContainer autoClose={1000} />
     </AuthProvider>
   );
