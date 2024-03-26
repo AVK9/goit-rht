@@ -1,5 +1,9 @@
 import React from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import {
+  BrowserRouter,
+  createBrowserRouter,
+  RouterProvider,
+} from 'react-router-dom';
 
 import Login from '../pages/login/Login';
 import Registration from '../pages/registration/Registration';
@@ -23,7 +27,11 @@ const Routes = () => {
     ...routes,
   ]);
 
-  return <RouterProvider router={router} />;
+  return (
+    <BrowserRouter basename="/goit-rht">
+      <RouterProvider router={router} />
+    </BrowserRouter>
+  );
 };
 
 export default Routes;

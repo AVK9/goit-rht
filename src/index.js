@@ -15,8 +15,8 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <BrowserRouter basename="/goit-rht"> */}
-      <App />
+    {/* <BrowserRouter basename="/goit-rht  "> */}
+    <App />
     {/* </BrowserRouter> */}
   </React.StrictMode>
 );
